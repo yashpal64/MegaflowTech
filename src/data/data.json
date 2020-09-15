@@ -1,0 +1,122 @@
+{
+  "Header": {
+    "title": "MegaFlow Technologies",
+    "paragraph": "We believe that best part of technology is innovation, and we are here to innovate for you."
+  },
+  "About": {
+    "paragraph": "We are there to provide platform solutions to your business whether it's small or large. Our services are based on customer satisfaction level and pricing is very mindfully designed to meet your needs at the right price. Because of our recent launch we have to decided to offer additional benefits to our early customers.                                                                     We as a company believe in the best service. Only good services and good working environment can make a good base for the company to rise to its potential. That's why we believe in utmost customer satisfaction and providing better guidance to our interns and team members so that they can give their best. With complete flexibility in our design we take care of every single detail you had in your mind.",
+    "Why": [
+      "Customer Satisfaction",
+      "Strategical Development",
+      "Guided by Values",
+      "Seek data, build knowledge"
+    ],
+    "Why2": [
+      "Work as one",
+      "Expertise in gaining trust",
+      "Drived by purpose",
+      "Taking you forward"
+    ]
+  },
+  "Services": [
+    {
+      "icon": "fa fa-desktop",
+      "name": "Web Development",
+      "text": "Step into the world of excellence in designing and developing engaging websites. You will be very impressed with the high level at which we are thinking about and producing your work. We offer advanced website and web application development customized to suit your business needs."
+    },
+    {
+      "icon": "fa fa-mobile",
+      "name": "App Development",
+      "text": "We will love to develop a mobile app for you. We craft the most innovative & eye catchy mobile apps. We have assembled a team of mobile strategists, designers, and developers that specialize in making our client's vision a reality quickly."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "name": "Digital Marketing",
+      "text": "The marketing landscape is continuously evolving. There are many approaches to get into the world of marketing and with phased manner we will help you to pick the right tree in this vast forest of marketing."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/04.jpg",
+      "name": "Bharat Singh",
+      "job": "Web Development (React js)"
+    },
+    {
+      "img": "img/team/abhinandan.jpg",
+      "name": "Abhinandan Singhal",
+      "job": "Digital Marketing"
+    },
+    {
+      "img": "img/team/ummed.jpg",
+      "name": "Ummed Singh",
+      "job": "App Development"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Nikhil Sharma",
+      "job": "Web Development (React js)"
+    }
+  ],
+  "Contact": {
+    "address": "Jaipur, Rajasthan ",
+    "phone": "+91 7300035677",
+    "email": "contact@megaflowtech.com",
+    "facebook": "https://www.linkedin.com/company/megaflow-tech",
+    "twitter": "https://www.twitter.com/megaflowT",
+    "youtube": "https://www.instagram.com/megaflow_technologies"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Yashpal",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Abhinandan",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ]
+}
