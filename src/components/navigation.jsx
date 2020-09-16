@@ -1,10 +1,44 @@
 import React, { Component } from "react";
 import mega from "../data/mega.png";
+import * as Scroll from "react-scroll";
+import { Link } from "react-scroll";
 
 export class Navigation extends Component {
+  state = {
+    scrolled: false,
+  };
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+
+  handleScroll = () => {
+    if (window.scrollY > 500) {
+      this.setState({
+        scrolled: true,
+      });
+    } else {
+      this.setState({
+        scrolled: false,
+      });
+    }
+  };
   render() {
     return (
-      <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+      <nav
+        id="menu"
+        className="navbar navbar-default navbar-fixed-top"
+        style={
+          this.state.scrolled
+            ? {
+                backgroundColor: "black",
+              }
+            : null
+        }
+      >
         <div className="container">
           <div className="navbar-header">
             <button
@@ -19,9 +53,15 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
-            <a className="navbar-brand page-scroll" href="#page-top">
-              MegaFlow Technologies
-            </a>{" "}
+            <Link
+              to="page-top"
+              smooth={true}
+              duration={1000}
+              spy={true}
+              isDynamic={true}
+            >
+              <a className="navbar-brand page-scroll">MegaFlow Technologies</a>
+            </Link>{" "}
           </div>
 
           <div
@@ -30,17 +70,34 @@ export class Navigation extends Component {
           >
             <ul className="nav navbar-nav navbar-right">
               <li>
-                <a href="#features" className="page-scroll">
+                <Link
+                  to="features"
+                  className="page-scroll"
+                  smooth={true}
+                  duration={1000}
+                >
                   Features
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#about" className="page-scroll">
+                <Link
+                  to="about"
+                  className="page-scroll"
+                  smooth={true}
+                  isDynamic={true}
+                  duration={1000}
+                >
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#services" className="page-scroll">
+                <a
+                  to="services"
+                  className="page-scroll"
+                  smooth={true}
+                  isDynamic={true}
+                  duration={1000}
+                >
                   Services
                 </a>
               </li>

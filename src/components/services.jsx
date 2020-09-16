@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { ParallaxHover } from "react-parallax-hover";
+import AnimakitRotator from "animakit-rotator";
 
 export class Services extends Component {
   render() {
@@ -18,17 +19,8 @@ export class Services extends Component {
               ? this.props.data.map((d, i) => (
                   <div key={`${d.name}-${i}`} className="col-md-4">
                     {" "}
-                    <ParallaxHover
-                      width={122}
-                      height={121}
-                      rotation={7}
-                      borderRadius={100}
-                      lightShine={0}
-                      shadowDepth={9}
-                    >
-                      <i className={d.icon}></i>
-                    </ParallaxHover>
                     <div className="service-desc">
+                      <i className={d.icon}></i>
                       <h3>{d.name}</h3>
                       <br></br>
                       <p>{d.text}</p>

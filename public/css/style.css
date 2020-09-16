@@ -76,23 +76,23 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: transparent;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  color: #333;
+  font-size: 26px;
+  font-weight: 800;
+  color: #ffffff;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
-  font-size: 15px;
-  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
   padding: 8px 2px;
   border-radius: 0;
   margin: 9px 20px 0 20px;
@@ -107,6 +107,10 @@ hr {
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   content: "";
   transition: width 0.2s;
+}
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
 }
 #menu.navbar-default .navbar-nav > li > a:hover:after {
   width: 100%;
@@ -232,7 +236,7 @@ a:focus,
   color: #5ca9fb;
 }
 .intro p {
-  color: #fff;
+  color: #000;
   font-size: 22px;
   font-weight: 300;
   line-height: 30px;
@@ -240,9 +244,10 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
+  padding-top: 15px;
+  padding-bottom: 10px;
   text-align: center;
+  color: #03093d;
 }
 /* Features Section */
 #features {
@@ -311,7 +316,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #021183 0%, #5ca9fb 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -354,6 +359,7 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
+  background: "white";
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
@@ -403,10 +409,10 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
-  background: #f6f6f6;
+  background: "white";
 }
 #testimonials i {
-  color: #e6e6e6;
+  color: #ffffff;
   font-size: 32px;
   margin-bottom: 20px;
 }
@@ -461,7 +467,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #5ca9fb 0%, #00041d 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -490,7 +496,7 @@ header .intro-text {
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
-  font-weight: 400;
+  font-weight: 700;
 }
 #contact form {
   padding-top: 20px;
@@ -581,20 +587,21 @@ label {
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-  color: #608dfd;
+  color: #060b2e;
   background: #fff;
 }
 /* Footer Section*/
 #footer {
-  background: #f6f6f6;
+  background: #ffffff;
   padding: 30px 0;
 }
 #footer p {
-  color: #888;
-  font-size: 14px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
 }
 #footer a {
-  color: #608dfd;
+  color: #11457e;
 }
 #footer a:hover {
   border-bottom: 2px solid #608dfd;

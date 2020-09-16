@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import AnimakitRotator from "animakit-rotator";
+
+import Loader from "react-loader-spinner";
 
 export class Contact extends Component {
   render() {
@@ -54,9 +57,23 @@ export class Contact extends Component {
                     <p className="help-block text-danger"></p>
                   </div>
                   <div id="success"></div>
-                  <button type="submit" className="btn btn-custom btn-lg">
-                    Send Message
-                  </button>
+                  <AnimakitRotator side="button">
+                    <button
+                      key="button"
+                      type="submit"
+                      className="btn btn-custom btn-lg"
+                    >
+                      Send Message
+                    </button>
+                    <Loader
+                      key="loader"
+                      type="Oval"
+                      color="#00BFFF"
+                      height={100}
+                      width={100}
+                      timeout={3000} //3 secs
+                    />
+                  </AnimakitRotator>
                 </form>
               </div>
             </div>
@@ -117,10 +134,8 @@ export class Contact extends Component {
         <div id="footer">
           <div className="container text-center">
             <p>
-              &copy; 2020 Issaaf Kattan React Land Page Template. Design by{" "}
-              <a href="http://www.templatewire.com" rel="nofollow">
-                TemplateWire
-              </a>
+              &copy; Copyright 2020 MegaFlow Technologies. All Rights Reserved{" "}
+              <a href="http://megaflowtech.com">MegaFlow</a>
             </p>
           </div>
         </div>

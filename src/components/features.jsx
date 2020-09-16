@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import FlipCard from "react-flip-cards";
 import "../data/index1.css";
+import scrollbar from "../data/scrollbar.css";
 import mega from "../data/mega.png";
 
 export class features extends Component {
