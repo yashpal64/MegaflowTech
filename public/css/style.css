@@ -213,7 +213,7 @@ a:focus,
   width: 100%;
   padding: 0;
   /* background: url(../img/intro-bg.jpg) center center no-repeat; */
-  background-color: #be8b3ec0;
+  background-color: #918d87;
   -webkit-background-size: cover;
  /* #be8b3ec0*/
   -moz-background-size: cover;
@@ -254,7 +254,7 @@ header .intro-text {
 /* Features Section */
 #features {
   padding: 100px 0;
-  background: #f6f6f6;
+  background: #f3f3f3;
 }
 #features i.fa {
   font-size: 38px;
