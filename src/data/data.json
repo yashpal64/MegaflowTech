@@ -99,22 +99,22 @@
   },
   "Features": [
     {
-      "img": "img/team/04.jpg",
+      "icon": "img/megamind.png",
       "title": "Mega-Minds",
       "text": "Our team is filled with mindful developers, designer and strategists, who will surprise you with their work and creativity"
     },
     {
-      "img": "fa fa-bullhorn",
+      "icon": "img/companyculture.png",
       "title": "Mega-Culture",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "img": "fa fa-group",
+      "icon": "img/techstack.png",
       "title": "Mega-Stack",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "img": "fa fa-magic",
+      "icon": "img/megamarket.png",
       "title": "Mega-Market",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }

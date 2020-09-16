@@ -21,10 +21,8 @@ export class features extends Component {
                     <HoverableCard
                      cardTitle={d.title}
                      cardDescription={d.text}
-                    cardImage={d.img}
-                    hoverBgColor= "blue"
-    />
-
+                    cardImage={d.icon}
+                    hoverBgColor= 'blue'/>
                   </div>
                 ))
               : "Loading..."}
