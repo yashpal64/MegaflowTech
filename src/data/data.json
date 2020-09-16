@@ -100,22 +100,22 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Yashpal",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Mega-Minds",
+      "text": "Our team is filled mindful developers, designer and strategists, who will surprise you with their work and creativity"
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Abhinandan",
+      "title": "Mega-Culture",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
+      "title": "Mega-Stack",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
+      "title": "Mega-Market",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
   ]

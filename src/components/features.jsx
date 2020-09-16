@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import FlipCard from "react-flip-cards";
+import { HoverableCard } from 'react-hoverable-card'
+import 'react-hoverable-card/dist/index.css'
 import "../data/index1.css";
 import scrollbar from "../data/scrollbar.css";
 import mega from "../data/mega.png";
@@ -17,15 +18,13 @@ export class features extends Component {
               ? this.props.data.map((d, i) => (
                   <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
                     {" "}
-                    <FlipCard
-                      icon={d.icon} // all props
-                      fontTitle={d.title}
-                      fontSubTitle="web application"
-                      backTitle="ReactJs app"
-                      backText={d.text}
-                      fgColor="#000000" // front card background color
-                      bgColor="#ffffff" // back card background color
-                    />
+                    <HoverableCard
+                     cardTitle={d.title}
+                     cardDescription={d.text}
+                    cardImage="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
+                    hoverBgColor="blue"
+    />
+
                   </div>
                 ))
               : "Loading..."}

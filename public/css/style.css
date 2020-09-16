@@ -72,7 +72,7 @@ hr {
 }
 /* Navigation */
 #menu {
-  padding: 15px;
+  padding: 5px;
   transition: all 0.8s;
 }
 #menu.navbar-default {
@@ -83,7 +83,7 @@ hr {
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
-  font-weight: 800;
+  font-weight: 500;
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -92,7 +92,7 @@ hr {
   text-transform: uppercase;
   color: #ffffff;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 400;
   padding: 8px 2px;
   border-radius: 0;
   margin: 9px 20px 0 20px;
@@ -213,8 +213,9 @@ a:focus,
   width: 100%;
   padding: 0;
   /* background: url(../img/intro-bg.jpg) center center no-repeat; */
-  background-color: #e5e5e5;
+  background-color: #be8b3ec0;
   -webkit-background-size: cover;
+ /* #be8b3ec0*/
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
@@ -224,7 +225,7 @@ a:focus,
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: rgb(8, 0, 0);
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
@@ -237,11 +238,12 @@ a:focus,
 }
 .intro p {
   color: #000;
-  font-size: 22px;
-  font-weight: 300;
-  line-height: 30px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 50px;
   margin: 0 auto;
   margin-bottom: 60px;
+  font-family: 'Times New Roman', Times, serif;
 }
 header .intro-text {
   padding-top: 15px;
@@ -467,7 +469,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px 0;
-  background: linear-gradient(to right, #5ca9fb 0%, #00041d 100%);
+  background: linear-gradient(to right, #0a7ecc 0%, #0871ad 50%, #035c80 80%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -593,7 +595,7 @@ label {
 /* Footer Section*/
 #footer {
   background: #ffffff;
-  padding: 30px 0;
+  padding: 12px 0;
 }
 #footer p {
   color: #000000;

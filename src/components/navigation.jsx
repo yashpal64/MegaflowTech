@@ -34,7 +34,7 @@ export class Navigation extends Component {
         style={
           this.state.scrolled
             ? {
-                backgroundColor: "black",
+                backgroundColor: '#918d87' ,
               }
             : null
         }
