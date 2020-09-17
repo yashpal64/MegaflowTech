@@ -358,7 +358,7 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
-/* Portfolio Section */
+/* Technologies & Industries Section */
 #portfolio {
   padding: 100px 0;
   background: "white";
@@ -366,6 +366,11 @@ header .intro-text {
 .portfolio-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
+}
+.typist-text {
+  font-size: 22px;
+  color: rgb(226, 31, 31);
+  font-weight: 400;
 }
 .portfolio-item .hover-bg {
   overflow: hidden;
@@ -408,7 +413,8 @@ header .intro-text {
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
-/* Testimonials Section */
+
+
 #testimonials {
   padding: 100px 0;
   background: "white";

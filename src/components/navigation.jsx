@@ -74,6 +74,7 @@ export class Navigation extends Component {
                   to="features"
                   className="page-scroll"
                   smooth={true}
+                  isDynamic={true}
                   duration={1000}
                 >
                   Features
@@ -91,7 +92,7 @@ export class Navigation extends Component {
                 </Link>
               </li>
               <li>
-                <a
+                <Link
                   to="services"
                   className="page-scroll"
                   smooth={true}
@@ -99,23 +100,23 @@ export class Navigation extends Component {
                   duration={1000}
                 >
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#portfolio" className="page-scroll">
+                <Link to="portfolio" className="page-scroll" smooth={true} isDynamic={true} duration={1500}>
                   Gallery
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#team" className="page-scroll">
+                <Link to="team" className="page-scroll" smooth={true} isDynamic={true} duration={1500}>
                   Team
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#contact" className="page-scroll">
+                <Link to="contact" className="page-scroll" smooth={true} isDynamic={true} duration={1500}>
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
