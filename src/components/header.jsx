@@ -10,7 +10,7 @@ export class Header extends Component {
             videoClassName="player-video"
             // Applies inline styles to the video element
             style={{
-              width: "100%",
+              width: "calc(100vw)", height: "calc(60vw)"
             }}
             sizingMode="overlay"
             style={{

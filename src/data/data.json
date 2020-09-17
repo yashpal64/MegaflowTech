@@ -69,32 +69,32 @@
   ],
   "Team": [
     {
-      "img": "img/team/bharat.jpg",
+      "img": "img/team/bharat.png",
       "name": "Bharat Singh",
       "job": "Web Development (React js)"
     },
     {
-      "img": "img/team/abhinandan.jpg",
+      "img": "img/team/abhinandan.png",
       "name": "Abhinandan Singhal",
       "job": "Digital Marketing"
     },
     {
-      "img": "img/team/ummed.jpg",
+      "img": "img/team/ummed.png",
       "name": "Ummed Singh",
       "job": "App Development"
     },
     {
-      "img": "img/team/nikhil.jpg",
+      "img": "img/team/nikhil.png",
       "name": "Nikhil Sharma",
       "job": "Web Development (React js)"
     },
     {
-      "img": "img/team/anshul.jpg",
+      "img": "img/team/anshul.png",
       "name": "Anshul Mandrelia",
       "job": "Director"
     },
     {
-      "img": "img/team/yashpal.jpg",
+      "img": "img/team/yashpal.png",
       "name": "Yashpal Singh",
       "job": "Director"
     }
