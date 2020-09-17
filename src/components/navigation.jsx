@@ -59,6 +59,7 @@ export class Navigation extends Component {
               duration={1000}
               spy={true}
               isDynamic={true}
+              style={{cursor: "pointer"}}
             >
               <a className="navbar-brand page-scroll">MegaFlow Technologies</a>
             </Link>{" "}
@@ -76,6 +77,7 @@ export class Navigation extends Component {
                   smooth={true}
                   isDynamic={true}
                   duration={1000}
+                  style={{cursor: "pointer"}}
                 >
                   Features
                 </Link>
@@ -87,6 +89,7 @@ export class Navigation extends Component {
                   smooth={true}
                   isDynamic={true}
                   duration={1000}
+                  style={{cursor: "pointer"}}
                 >
                   About
                 </Link>
@@ -98,23 +101,24 @@ export class Navigation extends Component {
                   smooth={true}
                   isDynamic={true}
                   duration={1000}
+                  style={{cursor: "pointer"}}
                 >
                   Services
                 </Link>
               </li>
               <li>
-                <Link to="portfolio" className="page-scroll" smooth={true} isDynamic={true} duration={1500}>
-                  Gallery
+                <Link to="portfolio" className="page-scroll" smooth={true} isDynamic={true} duration={1500} style={{cursor: "pointer"}}>
+                  T & I
                 </Link>
               </li>
 
               <li>
-                <Link to="team" className="page-scroll" smooth={true} isDynamic={true} duration={1500}>
+                <Link to="team" className="page-scroll" smooth={true} isDynamic={true} duration={1500} style={{cursor: "pointer"}}>
                   Team
                 </Link>
               </li>
               <li>
-                <Link to="contact" className="page-scroll" smooth={true} isDynamic={true} duration={1500}>
+                <Link to="contact" className="page-scroll" smooth={true} isDynamic={true} duration={1500} style={{cursor: "pointer"}}>
                   Contact
                 </Link>
               </li>

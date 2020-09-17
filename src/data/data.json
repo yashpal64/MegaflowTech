@@ -37,39 +37,39 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "icon": "img/retail.png",
+      "text": "To further improve the shopping experience, more stores are using purchase tracking to follow consumer behavior and preferences, offering tailored deals and personalized sales for a variety of shopping tastes",
+      "name": "Retail & Commerce"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "icon": "img/bank.png",
+      "text": "Debit cards annihilated the widespread use of checkbooks, and now Cloud-based financial services are all but eliminating the need to deal with cards altogether.",
+      "name": "Finance & Banking"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "icon": "img/travel.png",
+      "text": "Even though consumers have to jump through more security hoops than ever before, technology takes a lot of the sting out of what used to be common travel complaints",
+      "name": "Travel & Tourism"
     },
     {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "icon": "img/media.png",
+      "text": "The media industry can be defined as a varied collection of organisations that share the production, publication and distribution of media texts.",
+      "name": "Media"
     },
     {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "icon": "img/insurance.png",
+      "text": "Insurance is something most people use only in emergencies, it's hard to imagine how this industry could be transformed by technology.",
+      "name": "Insurance"
     },
     {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "icon": "img/it.png",
+      "text": "IT sector is considered a sub sector of Information and communication sector. It involves computer systems with Hardware, Software, Network, Infrastructure and associated other equipment.",
+      "name": "IT"
     }
   ],
   "Team": [
     {
-      "img": "img/team/04.jpg",
+      "img": "img/team/bharat.jpg",
       "name": "Bharat Singh",
       "job": "Web Development (React js)"
     },
@@ -84,9 +84,19 @@
       "job": "App Development"
     },
     {
-      "img": "img/team/04.jpg",
+      "img": "img/team/nikhil.jpg",
       "name": "Nikhil Sharma",
       "job": "Web Development (React js)"
+    },
+    {
+      "img": "img/team/anshul.jpg",
+      "name": "Anshul Mandrelia",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/yashpal.jpg",
+      "name": "Yashpal Singh",
+      "job": "Director"
     }
   ],
   "Contact": {
@@ -101,22 +111,22 @@
     {
       "icon": "img/megamind.png",
       "title": "Mega-Minds",
-      "text": "Our team is filled with mindful developers, designer and strategists, who will surprise you with their work and creativity"
+      "text": "Our team is filled with mindful developers, designer and strategists, who will surprise you with their work and creativity."
     },
     {
       "icon": "img/companyculture.png",
       "title": "Mega-Culture",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Clarity, intensity and community are key characteristics of our culture — in that order. Each person contributes to multiple areas."
     },
     {
       "icon": "img/techstack.png",
       "title": "Mega-Stack",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Technology infrastructure, or a data ecosystem, is a list of all the technology services we used to build and run one single application."
     },
     {
       "icon": "img/megamarket.png",
       "title": "Mega-Market",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "The technology market encompasses many more, smaller markets. Technology includes everything from smartphones and other smart devices, to the internet, to virtual reality."
     }
   ]
 }

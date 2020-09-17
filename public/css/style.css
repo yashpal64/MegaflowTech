@@ -135,14 +135,18 @@ hr {
 }
 .navbar-toggle {
   border-radius: 0;
+  cursor: pointer;
+
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #fff;
   border-color: #608dfd;
+  cursor: pointer;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
   background-color: #608dfd;
+  cursor: pointer;
 }
 .section-title {
   margin-bottom: 70px;
@@ -270,7 +274,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
-  padding: 100px 0;
+  padding: 30% 13%;
 }
 #about h3 {
   font-size: 22px;
@@ -360,12 +364,16 @@ header .intro-text {
 }
 /* Technologies & Industries Section */
 #portfolio {
-  padding: 100px 0;
+  padding: 10% 0;
   background: "white";
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
+}
+.technologyheading {
+  font-size: 40px;
+  font-weight: 300;
 }
 .typist-text {
   font-size: 22px;
@@ -377,6 +385,7 @@ header .intro-text {
   position: relative;
   margin: 0;
 }
+
 .hover-bg .hover-text {
   position: absolute;
   text-align: center;
@@ -415,9 +424,10 @@ header .intro-text {
 }
 
 
+
 #testimonials {
-  padding: 100px 0;
-  background: "white";
+  padding: 10% 0;
+  background: 'white';
 }
 #testimonials i {
   color: #ffffff;
@@ -430,7 +440,7 @@ header .intro-text {
 }
 .testimonial-image {
   float: left;
-  margin-right: 15px;
+  margin-right: 45px;
 }
 .testimonial-image,
 .testimonial-image img {
@@ -452,11 +462,11 @@ header .intro-text {
   margin-top: 10px;
   font-size: 15px;
   font-weight: 600;
-  color: #666;
+  color: rgb(255, 255, 255);
 }
 /* Team Section */
 #team {
-  padding: 100px 0;
+  padding: 20% 0;
 }
 #team h4 {
   margin: 5px 0;
@@ -474,7 +484,7 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px 0;
+  padding: 130px 0 60px 0;
   background: linear-gradient(to right, #0a7ecc 0%, #0871ad 50%, #035c80 80%);
   color: rgba(255, 255, 255, 0.75);
 }
