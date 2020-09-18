@@ -18,7 +18,7 @@ export class Team extends Component {
           <div className="col-md-8 col-md-offset-2 section-title">
             <h2>Meet the Team</h2>
             <p>
-            These are the members of our team who extend this company to great level.
+            These are the members of our team who extended this company to a great company.
             </p>
           </div>
           <div id="row">

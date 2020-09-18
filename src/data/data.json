@@ -1,10 +1,10 @@
 {
   "Header": {
     "title": "",
-    "paragraph": "We believe that best part of technology is innovation, and we are here to innovate for you."
+    "paragraph": "We at Megaflow, believe that best part of technology is innovation, and we are here to innovate for you."
   },
   "About": {
-    "paragraph": "We are there to provide platform solutions to your business whether it's small or large. Our services are based on customer satisfaction level and pricing is very mindfully designed to meet your needs at the right price. Because of our recent launch we have to decided to offer additional benefits to our early customers.                                                                     We as a company believe in the best service. Only good services and good working environment can make a good base for the company to rise to its potential. That's why we believe in utmost customer satisfaction and providing better guidance to our interns and team members so that they can give their best. With complete flexibility in our design we take care of every single detail you had in your mind.",
+    "paragraph": "Megaflow Technologies is there to provide platform solutions to your business whether it's small or large. Our services are based on customer satisfaction level and pricing is very mindfully designed to meet your needs at the right price. Because of megaflow's recent launch we have to decided to offer additional benefits to our early customers.                                                                     We as a company believe in the best service. Only good services and good working environment can make a good base for the company to rise to its potential. That's why we believe in utmost customer satisfaction and providing better guidance to our interns and team members so that they can give their best. With complete flexibility in our design we take care of every single detail you had in your mind.",
     "Why": [
       "Customer Satisfaction",
       "Strategical Development",
@@ -111,22 +111,22 @@
     {
       "icon": "img/megamind.png",
       "title": "Mega-Minds",
-      "text": "Our team is filled with mindful developers, designer and strategists, who will surprise you with their work and creativity."
+      "text": "At Megaflow, Our team is filled with mindful developers, designer and strategists, who will surprise you with their work and creativity."
     },
     {
       "icon": "img/companyculture.png",
       "title": "Mega-Culture",
-      "text": "Clarity, intensity and community are key characteristics of our culture — in that order. Each person contributes to multiple areas."
+      "text": "At Megaflow, Clarity, intensity and community are key characteristics of our culture — in that order. Each person contributes to multiple areas."
     },
     {
       "icon": "img/techstack.png",
       "title": "Mega-Stack",
-      "text": "Technology infrastructure, or a data ecosystem, is a list of all the technology services we used to build and run one single application."
+      "text": "At Megaflow, Technology infrastructure, or a data ecosystem, is a list of all the technology services we used to build and run one single application."
     },
     {
       "icon": "img/megamarket.png",
       "title": "Mega-Market",
-      "text": "The technology market encompasses many more, smaller markets. Technology includes everything from smartphones and other smart devices, to the internet, to virtual reality."
+      "text": "At Megaflow, The technology market encompasses many more, smaller markets. Technology includes everything from smartphones and other smart devices, to the internet, to virtual reality."
     }
   ]
 }
