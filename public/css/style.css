@@ -74,15 +74,19 @@ hr {
 #menu {
   padding: 5px;
   transition: all 0.8s;
+  width: 100%;
 }
 #menu.navbar-default {
   background-color: transparent;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
+#menu img.navbar{
+  height: auto;
+}
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
-  font-size: 26px;
+  font-size: 29px;
   font-weight: 500;
   color: #ffffff;
   text-transform: uppercase;
@@ -91,8 +95,8 @@ hr {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   color: #ffffff;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 15x;
+  font-weight: 600;
   padding: 8px 2px;
   border-radius: 0;
   margin: 9px 20px 0 20px;

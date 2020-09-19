@@ -6,7 +6,7 @@ export class Header extends Component {
       <header id="header">
         <div className="intro">
           <HoverVideoPlayer
-            videoSrc="img/video-bg.mp4"
+            videoSrc= 'img/video-bg.mp4'
             videoClassName="player-video"
             // Applies inline styles to the video element
             style={{

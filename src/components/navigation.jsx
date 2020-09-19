@@ -41,6 +41,8 @@ export class Navigation extends Component {
       >
         <div className="container">
           <div className="navbar-header">
+          
+        
             <button
               type="button"
               className="navbar-toggle collapsed"
@@ -53,6 +55,7 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
+            
             <Link
               to="page-top"
               smooth={true}
@@ -61,6 +64,8 @@ export class Navigation extends Component {
               isDynamic={true}
               style={{cursor: "pointer"}}
             >
+              
+
               <a className="navbar-brand page-scroll">MegaFlow Technologies</a>
             </Link>{" "}
           </div>
@@ -69,6 +74,7 @@ export class Navigation extends Component {
             className="collapse navbar-collapse"
             id="bs-example-navbar-collapse-1"
           >
+            
             <ul className="nav navbar-nav navbar-right">
               <li>
                 <Link
@@ -122,6 +128,9 @@ export class Navigation extends Component {
                   Contact
                 </Link>
               </li>
+              <li>
+              <a href='https://www.blog.megaflowtech.com/'>Blog</a>
+                </li>
             </ul>
           </div>
         </div>
