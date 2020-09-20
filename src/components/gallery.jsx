@@ -56,7 +56,7 @@ items3:  [
     id: 1,
     header: 'Creative IT Solutions',
     description:
-      'Nobody wants a cookie-cutter solution. CompCiti provides customized, creative solutions for your IT needs.',
+      'Nobody wants a cookie-cutter solution. Megaflow provides customized, creative solutions for your IT needs.',
     image: 'img/businesscreative.png'
   },
   {
@@ -94,7 +94,7 @@ items4:  [
     id: 3,
     header: 'Content Writing',
     description:
-      'Cardinal’s experienced writers will provide fresh content for your blogs and website, utilizing SEO while still providing quality, engaging copy.',
+      'Megaflow’s experienced writers will provide fresh content for your blogs and website, utilizing SEO while still providing quality, engaging copy.',
     image: 'img/contentwriting.jpg'
   },
 ]}
